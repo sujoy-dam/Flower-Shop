@@ -9,10 +9,9 @@ body{
 }
 .banner-section-container{
     max-width: 1350px;
-    height: 100vh;
+    height: 90vh;
     background-color: #E554731A;
     margin: 0 auto;
-    border: 2px solid red;
 }
 .banner-content{
     display: flex;
@@ -23,19 +22,34 @@ body{
 .banner-text-container{
     width: 50%;
     height: 100%;
-    border: 2px solid black;
-    padding: 160px 0px 120px 0px;
+    padding: 150px 0px 100px 100px;
 }
 .banner-img-container{
     width: 50%;
     height: 100%;
-    border: 2px solid black;
     position: relative;
-    /* right: 200px; */
 }
 img{
     position: absolute;
     right: 0px;
     bottom: 0px;
     padding-right: 100px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 800;
+    width: fit-content;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    width: fit-content;
+}
+.btn{
+    background-color: #E55473;
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
 }
