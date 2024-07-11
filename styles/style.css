@@ -11,7 +11,7 @@ header{
     margin-bottom: 50px;
 }
 .banner-section-container{
-    max-width: 1350px;
+    max-width: 1440px;
     height: 650px;
     background-color: #E554731A;
     margin: 0 auto;
@@ -58,7 +58,7 @@ header{
     font-size: 20px;
 }
 .featured-image-section{
-    max-width: 1350px;
+    max-width: 1440px;
     height: 100%;
     /* border: 2px solid red; */
     margin: 150px auto;
@@ -128,4 +128,23 @@ header{
 .flower{
     width: 33%;
 
+}
+.support-container{
+    max-width: 1150px;
+    border: 2px solid red;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2727270D;
+}
+.delivery, .grower, .support{
+    border: 2px solid red;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
