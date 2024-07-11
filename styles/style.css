@@ -212,6 +212,8 @@ header{
     align-items: center;
     padding: 100px 0px;
     background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .latest-deals-container p{
     margin: 20px 0px 30px 0px;
@@ -228,4 +230,27 @@ header{
     background-color: #E55473;
     border-radius: 5px;
     margin-left: 10px;
+}
+.footer-section{
+    max-width: 1440px;
+    margin: 40px auto 0px autog;
+    background-color: #111010;
+}
+.footer-container{
+    max-width:1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0px auto;
+    border: 2px solid red;
+    padding: 80px 0px;
+    color: white;
+    text-align: center;
+}
+.footer-container p{
+    margin: 20px 0px 30px 0px;
+}
+span{
+    color: #E55473;
 }
