@@ -233,7 +233,7 @@ header{
 }
 .footer-section{
     max-width: 1440px;
-    margin: 40px auto 0px autog;
+    margin: 40px auto 0px auto;
     background-color: #111010;
 }
 .footer-container{
