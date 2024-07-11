@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body{
     font-family: "Lato", sans-serif;
@@ -173,4 +173,29 @@ header{
     width: 250px;
     height: 300px;
     padding: 50px 0px;
+}
+.instagram-section{
+    max-width: 1100px;
+    border: 2px solid red;
+    margin: 20px auto ;
+}
+.instagram-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+}
+.instagram-section-img{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+    /* width: 100%;; */
+}
+.instagram-section-img img{
+    display: inline-block;
+    border: 2px dashed gray;
+    width: 250px
 }
